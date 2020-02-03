@@ -1,8 +1,14 @@
+<!DOCTYPE html>
+<html>
 <?php
-/**
- * Created by PhpStorm.
- * User: ngochoangmai
- * Date: 1/31/20
- * Time: 10:41 PM
- */
-echo "Hello world!";
+include_once("./include/header.php");
+?>
+<body>
+<?php require_once("./include/nav-bar.php") ?>
+<div id='calendar'></div>
+</body>
+
+<?php
+include_once("./include/master.php");
+?>
+</html>
